@@ -7,7 +7,7 @@ A Django-based REST API for authenticated task management. Users can register, l
 ## Tech Stack
 
 - Python 3, Django
-- PostgreSQL (or SQLite for local)
+- SQLite for local
 - Session-based authentication
 - JSON API
 
@@ -43,8 +43,8 @@ POST /tasks/ — create task
 
 GET /tasks/<_id_>/ — retrieve single task
 
-PUT /tasks/<id>/ — update task
+PUT /tasks/<_id_>/ — update task
 
-DELETE /tasks/<id>/ — delete task
+DELETE /tasks/<_id_>/ — delete task
 
 Include session cookie from login for all task operations.
