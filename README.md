@@ -16,8 +16,8 @@ A Django-based REST API for authenticated task management. Users can register, l
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/kellymacdev/task-manager.git
+cd task-manager
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
