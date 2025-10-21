@@ -41,7 +41,7 @@ GET /tasks/ — list tasks
 
 POST /tasks/ — create task
 
-GET /tasks/<id>/ — retrieve single task
+GET /tasks/<_id_>/ — retrieve single task
 
 PUT /tasks/<id>/ — update task
 
