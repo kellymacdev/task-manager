@@ -10,4 +10,5 @@ urlpatterns = [
     path("register/", views.register, name="register"),
     path("tasks/", views.tasks, name="my_tasks"),
     path("tasks/<int:task_id>/", views.specific_task, name="specific_task"),
+    path('admin/', admin.site.urls),
 ]
